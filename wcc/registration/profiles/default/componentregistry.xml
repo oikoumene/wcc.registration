@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<componentregistry>
+ <adapters/>
+ <utilities>
+  <utility
+    interface="wcc.registration.interfaces.IRegistrationApproval"
+    object="wcc_membership_registration_approval"/>
+ </utilities>
+</componentregistry>
