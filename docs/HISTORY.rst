@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0dev1 - aug 31
+-----
+-registration adjustment for wccminisites
+
 '1.0' - mar 15
 ---------------------
 
