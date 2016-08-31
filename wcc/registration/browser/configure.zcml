@@ -1,6 +1,7 @@
 <configure xmlns="http://namespaces.zope.org/zope"
            xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-           xmlns:browser="http://namespaces.zope.org/browser">
+           xmlns:browser="http://namespaces.zope.org/browser"
+           i18n_domain="wcc.registration">
 
     <browser:page
         class=".manage.ListPendingApproval"
@@ -18,7 +19,7 @@
         name="register"
         for="plone.app.layout.navigation.interfaces.INavigationRoot"
         layer="..interfaces.IProductSpecific"
-        permission="zope2.View"/>
+        permission="zope2.Public"/>
 
 
 </configure>
