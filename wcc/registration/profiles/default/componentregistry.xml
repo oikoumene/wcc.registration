@@ -4,6 +4,7 @@
  <utilities>
   <utility
     interface="wcc.registration.interfaces.IRegistrationApproval"
-    object="wcc_membership_registration_approval"/>
+    object="wcc_membership_registration_approval"
+    remove="true"/>
  </utilities>
 </componentregistry>
